@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" id='main-framework' href="assets/style.css" media="screen">
+    <link rel="stylesheet" id='main-framework' href="assets/style.scss" media="screen">
 
     <title>Single. HTML</title>
 </head>
@@ -13,7 +13,7 @@
     <header class="header-site"></header>
     
     <div class="main-site">
-        <article class="article-single">
+        <article class="article-single col-1 col--8">
             <header>
                 <h1>
                     Lorem ipsum dolor sit amet consectetur.
@@ -32,12 +32,12 @@
             </p>
         </article><!--end: article .article-single -->
 
-        <aside class="sidebar container--ads-vertical">
+        <aside class="sidebar-site col-1 col--4">
             <div class="sticky-ads">
-                
+                <div style="width: 300px; height: 250px; background: #ccc; color: #fff; line-height: 250px; text-align: center; ">MEDIUM RECTANGLE</div>
             </div><!--end .sticky-ads -->
-        </aside><!--end: aside .sidebar container--ads-vertical -->
-    </div>
+        </aside><!--end: aside-site .sidebar container--ads-vertical -->
+    </div><!--end: main-site -->
 
     <footer class="footer-site"></footer>
 </body>
