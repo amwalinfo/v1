@@ -3,7 +3,8 @@
     "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,KAAK,EAAE,IAAI;CACd",
     "sources": [
         "style.scss",
-        "_general.scss"
+        "_general.scss",
+        "_typography.scss"
     ],
     "names": [],
     "file": "style.css"
